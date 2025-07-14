@@ -176,8 +176,8 @@
   position: relative;
   min-width: 250px;
   // background: $background-color;
-  background: #F5EAEF;
-  // background: mix(#fff, $gray, 25%);
+  // background: #F5EAEF;
+  background: $lighter-gray;
 
   a {
     display: block;
