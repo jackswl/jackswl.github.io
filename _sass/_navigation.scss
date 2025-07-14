@@ -177,7 +177,7 @@
   min-width: 250px;
   // background: $background-color;
   // background: #fadadd;
-  background: #ffffff;
+  background: mix(#fff, $gray, 25%);
 
   a {
     display: block;
