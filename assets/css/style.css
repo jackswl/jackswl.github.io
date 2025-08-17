@@ -1,0 +1,197 @@
+/* assets/css/style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* UPDATED PUBLICATION STYLES */
+
+.publication {
+    margin-bottom: 50px; /* Increased space between publication entries */
+}
+
+.publication-image {
+    /* Image container now takes the full width */
+    width: 100%;
+    margin-bottom: 15px; /* Space between the image and the text below */
+}
+
+.publication-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #eee; /* A light border to frame the image */
+}
+
+.publication-info {
+    /* No special styling needed, it will naturally sit below the image */
+    width: 100%;
+}
+
+.publication-info .title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+}
+
+.publication-info .authors {
+    margin: 0 0 5px 0;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.publication-info .venue {
+    margin: 0 0 10px 0;
+    font-style: italic;
+    color: #777;
+    font-size: 0.95em;
+}
+
+.publication-info .links a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.publication-info .links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .publication {
+        flex-direction: column;
+    }
+    .publication-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 250px; /* Limit image width on mobile */
+    }
+}
+
+/* Profile Header Styles */
+.profile-header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 50px;
+   gap: 50px;
+}
+
+.profile-info {
+    flex: 2; /* This remains the same */
+}
+
+.profile-info h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #111;
+    margin-top: 42px;
+    margin-bottom: 15px;
+    text-align: center; /* ADD THIS to center the name */
+}
+
+.profile-info p {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify; /* Make sure the bio paragraph is left-aligned */
+}
+
+.profile-links {
+    text-align: center; /* ADD a new rule to center the links container */
+}
+
+.profile-links a:hover {
+   text-decoration: underline;
+}
+
+.profile-picture {
+   flex: 1.2;
+   text-align: center;
+}
+
+.profile-picture img {
+   width: 100%;
+   max-width: 420px;
+   height: auto;
+   border-radius: 50%;
+   border: 3px solid #eee;
+}
+
+/* Make the header stack on small screens */
+@media (max-width: 768px) {
+   .profile-header {
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .profile-info {
+       order: 2;
+   }
+
+   .profile-picture {
+       margin-bottom: 20px;
+       order: 1;
+   }
+}
+
+/* Custom h2 heading style */
+h2 {
+    font-size: 1.4em;       /* Adjust this value to make it bigger or smaller */
+    font-weight: 500;       /* This makes the font less bold (400 is normal) */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.profile-links a {
+    text-decoration: none; /* This removes the underline */
+    font-weight: 400;
+    color: #007bff;
+    margin: 0 0px;
+}
+
+.profile-links a:hover {
+    text-decoration: underline; /* This adds the underline back on hover */
+}
+
+/* Style for links inside the bio paragraph */
+.profile-info p a {
+    text-decoration: none; /* Removes the underline */
+    color: #007bff;        /* Ensures the link color is consistent */
+}
+
+.profile-info p a:hover {
+    text-decoration: underline; /* Adds the underline back on hover */
+}
