@@ -87,7 +87,7 @@ h2 {
 }
 
 /* Responsive design for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .publication {
         flex-direction: column;
     }
@@ -95,7 +95,6 @@ h2 {
         margin-right: 0;
         margin-bottom: 15px;
         width: 100%;
-        max-width: 250px; /* Limit image width on mobile */
     }
 }
 
