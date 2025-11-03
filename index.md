@@ -23,6 +23,22 @@ layout: default
 
 <div class="publication">
     <div class="publication-image">
+        <img src="/assets/images/pub_image3.png" alt="BIM-JEPA framework">
+    </div>
+    <div class="publication-info">
+        <p class="title">BIM-JEPA: Self-supervised learning for BIM element classification using a joint embedding predictive architecture</p>
+        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
+        <p class="venue">In Progress</p>
+        <div class="links">
+            <!-- <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">[Paper Link]</a> -->
+            <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
+            <!-- <a href="#">[Code]</a> -->
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="publication-image">
         <img src="/assets/images/pub_image3.png" alt="BuildThemis framework">
     </div>
     <div class="publication-info">
@@ -31,7 +47,7 @@ layout: default
         <p class="venue">Advanced Engineering Informatics, 2025</p>
         <div class="links">
             <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
-            <a href="{{ '/projects/fine-tuning/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
+            <a href="{{ '/buildthemis/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
             <!-- <a href="#">[Code]</a> -->
         </div>
     </div>

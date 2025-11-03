@@ -1,8 +1,9 @@
 ---
 layout: project
-title: Fine-tuning a large language model for automated code compliance of building regulations
-badge: Advanced Engineering Informatics 2025
-teaser: /assets/projects/fine-tuning/teaser.png
+title: "BIM-JEPA: Self-supervised learning for BIM element classification using a joint embedding predictive architecture"
+badge: "Automation in Construction (Under Review)"
+teaser: /assets/projects/bim-jepa/teaser.png
+permalink: /bim-jepa/
 
 authors:
   - name: Jack Wei Lun Shi
@@ -10,6 +11,12 @@ authors:
     aff: 1
   - name: Wawan Solihin
     aff: [1, 2]
+  - name: Yufeng Weng
+    aff: 1
+  - name: Yimin Zhao
+    aff: 1
+  - name: Leong Hien Poh
+    aff: 1
   - name: Justin Ker-Wei Yeoh
     aff: 1
 
@@ -21,16 +28,28 @@ affiliations:
 
 
 links:
-  - text: Paper
-    url: https://doi.org/10.1016/j.aei.2025.103676
+  - text: Paper (Under Review)
+    # url: https://doi.org/10.1016/j.aei.2025.103676
     icon: fa-regular fa-file
-  # - text: Code
-  #   url: https://github.com/your/repo
-  #   icon: fab fa-github
+  - text: "Model Weight (Coming Soon)"
+    url: "#"
+    icon: fa-solid fa-database   # or: fas fa-database (if using FA v5)
+  - text: Code
+    url: https://github.com/jackswl/bim-jepa
+    icon: fab fa-github
   # - text: BibTeX
   #   url: /assets/bibtex/fine-tuning.bib
   #   icon: fa-regular fa-file
 ---
+
+<!-- lightweight “more info soon” notice -->
+<div class="row justify-content-center">
+  <div class="col-md-10 col-lg-8">
+    <div class="alert alert-info text-center" role="alert">
+      Full details, including all training code and model weights, will be released upon acceptance of the paper. Thank you for your interest!
+    </div>
+  </div>
+</div>
 
 <div class="row justify-content-center">
   <div class="col-md-12 mb-md-5">
@@ -39,12 +58,12 @@ links:
     </h2>
     <span style="font-size: 0.95em;">
       <!-- Write your abstract here (3–5 sentences). -->
-      In the Architecture, Engineering, and Construction (AEC) industry, the interpretation and conversion of building rules into a computer-processable format for automated compliance checking systems are crucial for improving the design process. Yet, current systems and research on rule interpretation either demand extensive and timeconsuming expert-induced intervention, or rely on hard-coded pattern matching with limited applicability. To address these limitations, this paper introduces BuildThemis, a framework integrating a large language model fine-tuned on a real-world rule interpretation dataset with a Retrieval-Augmented Generation (RAG) mechanism. BuildThemis serves as a code-assistance tool that delivers structured draft scripts that experts can readily refine. The RAG technique grounds the fine-tuned LLM using an external code knowledge base, achieving a higher CodeBERTScore compared to non-RAG code generation approaches. Results demonstrate that the BuildThemis framework enhances the rule interpretation process by capturing latent concepts within rule-script pairs across various codes of practice and generating semantically similar scripts compared to the reference scripts. This approach to automating rule interpretation emphasizes generalization and reusability of rules, enabling the efficient conversion of textual regulatory documents into computable formats.
+    The development of scalable models for automated Building Information Modeling (BIM) element classification is hindered by the reliance on supervised learning, which requires expensive and laborious manual data annotation. This paper introduces BIM-JEPA, a foundation model that leverages a Joint Embedding Predictive Architecture for self-supervised pre-training on unlabeled 3D point cloud representations of individual BIM elements. By predicting the latent representations of masked regions of element geometry, BIM-JEPA learns semantically rich features that achieve competitive accuracy on a downstream classification task, outperforming existing supervised methods without heavy data augmentation, while excelling in data-scarce scenarios. This paper mitigates the data annotation bottleneck and establishes a path toward developing a foundation model for BIM geometry, enabling more scalable, data-efficient, and generalizable representation learning in the Architecture, Engineering, and Construction domain.
     </span>
   </div>
 </div>
 
-
+{% comment %}
 <!--this is for table 1-->
 <div class="row justify-content-center mt-md-1">
 <div class="col-md-12 mb-md-5 bg-light rounded">
@@ -151,3 +170,4 @@ links:
   </div>
 </div>
 </div>
+{% endcomment %}
