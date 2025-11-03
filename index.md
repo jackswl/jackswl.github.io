@@ -31,7 +31,7 @@ layout: default
         <p class="venue">Advanced Engineering Informatics, 2025</p>
         <div class="links">
             <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
-            <!-- <a href="#">[Project Page]</a> -->
+            <a href="{{ '/projects/fine-tuning/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
             <!-- <a href="#">[Code]</a> -->
         </div>
     </div>
