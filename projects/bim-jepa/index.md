@@ -34,7 +34,10 @@ links:
   - text: "Model Weight (Coming Soon)"
     url: "#"
     icon: fa-solid fa-database   # or: fas fa-database (if using FA v5)
-  - text: Code
+  - text: Training Code
+    url: https://github.com/jackswl/bim-jepa
+    icon: fab fa-github
+  - text: Inference Demo
     url: https://github.com/jackswl/bim-jepa
     icon: fab fa-github
   # - text: BibTeX
