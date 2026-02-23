@@ -31,7 +31,7 @@ links:
   - text: Paper (Under Review)
     # url: https://doi.org/10.1016/j.aei.2025.103676
     icon: fa-regular fa-file
-  - text: "Model Weight (Coming Soon)"
+  - text: "Model Weight"
     url: "#"
     icon: fa-solid fa-database   # or: fas fa-database (if using FA v5)
   - text: Training Code
