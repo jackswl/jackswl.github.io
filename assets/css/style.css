@@ -23,7 +23,7 @@ header h1 {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-weight: 500;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
@@ -130,6 +130,12 @@ h2 {
     text-align: center; /* ADD a new rule to center the links container */
 }
 
+.profile-links a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #007bff;
+}
+
 .profile-links a:hover {
    text-decoration: underline;
 }
@@ -170,26 +176,6 @@ h2 {
    }
 }
 
-/* Custom h2 heading style */
-h2 {
-    font-size: 1.4em;       /* Adjust this value to make it bigger or smaller */
-    font-weight: 500;       /* This makes the font less bold (400 is normal) */
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.profile-links a {
-    text-decoration: none; /* This removes the underline */
-    font-weight: 400;
-    color: #007bff;
-    margin: 0 0px;
-}
-
-.profile-links a:hover {
-    text-decoration: underline; /* This adds the underline back on hover */
-}
 
 /* Style for links inside the bio paragraph */
 .profile-info p a {

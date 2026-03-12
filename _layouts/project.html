@@ -54,6 +54,7 @@
         {% if page.authors %}
         <ul style="font-size: 1.2em" class="list-inline publication-authors">
           {% for a in page.authors %}
+          {% if a.break %}<br>{% endif %}
           <li class="list-inline-item">
             {%- if a.url -%}
               <a href="{{ a.url }}" target="_blank" rel="noopener">{{- a.name -}}</a>
