@@ -24,7 +24,6 @@
     .bg-light.rounded { padding: 1rem; }
   </style>
 
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
 <body>
   <div class="container" id="main">
@@ -158,21 +157,22 @@
 
 <!-- Method -->
 <div class="row justify-content-center mt-md-1">
+<div class="col-md-12">
 <div class="row mt-md-3">
     <div class="col-md-12 mb-md-2 align-self-center">
     <h2 class="title">
         <span style="font-size: 0.8em;"><b>Fine-tuning Mistral 7B Instruct Model</b></span>
     </h2>
     <span style="font-size: 0.95em;">
-        <!-- Summarize metrics and qualitative examples. -->
-        describe...
+        BuildThemis uses Mistral 7B Instruct v0.3 as its base model, fine-tuned via quantized low-rank adaptation (QLoRA) on 656 rule-script pairs from a real-world rule interpretation project spanning multiple Singapore codes of practice. During fine-tuning, prompt masking ensures the model focuses solely on learning the latent concepts between textual rules and their corresponding computer-processable scripts. At inference, Retrieval-Augmented Generation (RAG) is incorporated by embedding training scripts using voyage-code-2 and retrieving the most similar code as contextual input, guiding the LLM to generate more complete and accurate draft scripts for new rules.
     </span>
     </div>
     <div class="col-md-12 mb-md-3 align-self-center">
     <figure class="img-thumbnail mb-0">
-        <img src="/assets/projects/fine-tuning/method.png" alt="Results" class="img-fluid" />
+        <img src="/assets/projects/fine-tuning/method.png" alt="Method" class="img-fluid" />
     </figure>
     </div>
+</div>
 </div>
 </div>
 
@@ -185,8 +185,7 @@
           <span style="font-size: 0.8em;"><b>Results</b></span>
         </h2>
         <span style="font-size: 0.95em;">
-          <!-- Summarize metrics and qualitative examples. -->
-          describe....
+          Eight models (epochs 7&ndash;14) are evaluated on 79 test rule-script pairs using CodeBERTScore with both standard and RAG prompts. The model fine-tuned for 10 epochs achieves the highest mean F3 score under the standard prompt. Incorporating RAG with retrieved code context leads to statistically significant improvements in F3 scores across all epochs (Wilcoxon p-value &le; 3.01 &times; 10<sup>-3</sup>), with the difference plot below showing that RAG particularly benefits scripts with initially low F3 scores.
         </span>
       </div>
       <div class="col-md-12 mb-md-3 align-self-center">
@@ -226,8 +225,7 @@
         <span style="font-size: 0.8em;"><b>Quantitative vs Qualitative Rule Types</b></span>
     </h2>
     <span style="font-size: 0.95em;">
-        <!-- Summarize metrics and qualitative examples. -->
-        Describe....
+        Table 2 shows the mean score difference (&Delta; = Quantitative &minus; Qualitative) across epochs for each prompt type. Under the standard prompt, deltas remain within &plusmn;0.003 at higher epochs, indicating both rule types are generated almost indistinguishably. Incorporating RAG shifts precision toward quantitative rules&mdash;likely because retrieved context contains numerical anchors and structured cues that directly support quantitative rules&mdash;while the absolute gap between rule types remains orders of magnitude smaller than the overall improvement RAG yields on CodeBERTScore.
     </span>
     </div>
     <div class="col-md-12 mb-md-3 align-self-center">

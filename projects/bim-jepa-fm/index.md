@@ -62,6 +62,7 @@ links:
     </h2>
     <span style="font-size: 0.95em;">
       <!-- Write your abstract here. -->
+      The adoption of artificial intelligence in the Architecture, Engineering, and Construction domain is hindered by a reliance on task-specific models that fail to generalize across diverse geometric applications. To address this limitation, this paper introduces BIM-JEPA++, a point cloud-based foundation model for 3D Building Information Modeling (BIM) geometry, pre-trained via a Latent-Euclidean Joint Embedding Predictive Architecture on individual BIM objects. By enforcing predictive consistency between global object context and local topological details within a regularized latent space, BIM-JEPA++ extracts robust semantic features while suppressing low-level geometric noise. Extensive evaluations demonstrate the generalizability of the learned representations across multiple downstream tasks, achieving competitive performance in standard and fine-grained object classification, semantic segmentation via transfer learning, out-of-distribution part segmentation of computer-aided design objects, and zero-shot tasks including shape retrieval and clash detection. These results establish BIM-JEPA++ as a foundation model that facilitates diverse applications for 3D BIM geometry.
     </span>
   </div>
 </div>
