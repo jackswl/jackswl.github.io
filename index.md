@@ -23,6 +23,22 @@ layout: default
 
 <div class="publication">
     <div class="publication-image">
+        <!-- <img src="/assets/images/pub_image4.png" alt="BIM-JEPA-FM framework"> -->
+    </div>
+    <div class="publication-info">
+        <p class="title">Generalizable foundation models for 3D BIM geometry with a joint embedding predictive architecture</p>
+        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Houhao Liang, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
+        <p class="venue">In Progress</p>
+        <div class="links">
+            <a href="#" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
+            <a href="{{ '/bim-jepa-fm/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
+            <!-- <a href="#">[Code]</a> -->
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="publication-image">
         <!-- <img src="/assets/images/pub_image3.png" alt="BIM-JEPA framework"> -->
     </div>
     <div class="publication-info">

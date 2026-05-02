@@ -6,3 +6,4 @@ _site/
 .bundle/
 vendor/
 .ipynb_checkpoints/
+pdf.ipynb
