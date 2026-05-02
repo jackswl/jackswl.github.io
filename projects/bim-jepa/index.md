@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "BIM-JEPA: Self-supervised learning for BIM element classification using a joint embedding predictive architecture"
+title: "Self-supervised learning for BIM element classification using a joint embedding predictive architecture"
 badge: "Automation in Construction (Under Review)"
 teaser: /assets/projects/bim-jepa/teaser.png
 permalink: /bim-jepa/
@@ -61,7 +61,7 @@ links:
     </h2>
     <span style="font-size: 0.95em;">
       <!-- Write your abstract here (3–5 sentences). -->
-    The development of scalable models for automated Building Information Modeling (BIM) element classification is hindered by the reliance on supervised learning, which requires expensive and laborious manual data annotation. This paper introduces BIM-JEPA, a pre-trained model that leverages a Joint Embedding Predictive Architecture for self-supervised learning on unlabeled 3D point cloud representations of individual BIM elements. By predicting the latent representations of masked regions of element geometry, BIM-JEPA learns semantically rich features that achieve competitive accuracy on a downstream classification task, outperforming existing supervised methods without heavy data augmentation, while excelling in data-scarce scenarios. This paper mitigates the data annotation bottleneck and establishes a path toward developing a foundation model for BIM geometry, enabling more scalable, data-efficient, and generalizable representation learning in the Architecture, Engineering, and Construction domain.
+    The development of scalable models for automated Building Information Modeling (BIM) element classification is hindered by the reliance on supervised learning, which requires expensive and laborious manual data annotation. This paper introduces a pre-trained model that leverages a Joint Embedding Predictive Architecture for self-supervised learning on unlabeled 3D point cloud representations of individual BIM elements. By predicting the latent representations of masked regions of element geometry, the proposed model learns rich geometric features that achieve competitive accuracy on a downstream classification task, outperforming existing supervised methods without heavy data augmentation, while excelling in data-scarce scenarios. This paper mitigates the data annotation bottleneck and establishes a path toward developing a foundation model for BIM geometry, enabling more scalable, data-efficient, and generalizable representation learning in the Architecture, Engineering, and Construction domain.
     </span>
   </div>
 </div>
