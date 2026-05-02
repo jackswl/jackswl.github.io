@@ -26,7 +26,7 @@ layout: default
         <!-- <img src="/assets/images/pub_image3.png" alt="BIM-JEPA framework"> -->
     </div>
     <div class="publication-info">
-        <p class="title">BIM-JEPA: Self-supervised learning for BIM element classification using a joint embedding predictive architecture</p>
+        <p class="title">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</p>
         <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
         <p class="venue">Submitted to Automation in Construction, In Progress</p>
         <div class="links">
