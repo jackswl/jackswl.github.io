@@ -5,7 +5,7 @@ layout: default
 <div class="profile-header">
     <div class="profile-info">
         <h1>{{ site.author }}</h1>
-        <p>I am a second year Ph.D. student in the Department of Civil and Environmental Engineering at the National University of Singapore, advised by <a href="https://scholar.google.com/citations?user=m9LF49sAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. Justin Ker-Wei Yeoh</a>. My primary research focuses on leveraging and improving large language models and information retrieval techniques to automate code compliance for building regulations, with the goal of enhancing the design process in the architecture, engineering, and construction industry. I am always on the lookout for challenging opportunities that push the boundaries of knowledge and possibility. </p>
+        <p>I am a third year Ph.D. student in the Department of Civil and Environmental Engineering at the National University of Singapore, advised by <a href="https://scholar.google.com/citations?user=m9LF49sAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. Justin Ker-Wei Yeoh</a>. My primary research focuses on spatial intelligence for BIM, investigating how geometric world models and joint-embedding approaches can train machines to reason about buildings in 3D space. Earlier on, I worked on leveraging and improving large language models and information retrieval techniques to automate code compliance for building regulations, with the goal of enhancing the design process in the architecture, engineering, and construction industry. I am always on the lookout for challenging opportunities that push the boundaries of knowledge and possibility. </p>
         <div class="profile-links">
             <a href="mailto:jackswl@u.nus.edu">Email</a> / 
             <a href="/assets/pdf/Jack_Resume_latest.pdf" target="_blank" rel="noopener noreferrer">CV</a> /
@@ -26,7 +26,7 @@ layout: default
         <!-- <img src="/assets/images/pub_image4.png" alt="BIM-JEPA-FM framework"> -->
     </div>
     <div class="publication-info">
-        <p class="title">Generalizable foundation models for 3D BIM geometry with a joint embedding predictive architecture</p>
+        <p class="title">Toward generalizable foundation models for 3D BIM geometry with a joint embedding predictive architecture</p>
         <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Houhao Liang, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
         <p class="venue">In Progress</p>
         <div class="links">
@@ -46,7 +46,7 @@ layout: default
         <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
         <p class="venue">Submitted to Automation in Construction, In Progress</p>
         <div class="links">
-            <a href="#" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
+            <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
             <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
             <!-- <a href="#">[Code]</a> -->
         </div>
