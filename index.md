@@ -26,7 +26,7 @@ layout: default
         <!-- <img src="/assets/images/pub_image4.png" alt="BIM-JEPA-FM framework"> -->
     </div>
     <div class="publication-info">
-        <p class="title">Toward generalizable foundation models for 3D BIM geometry with a joint embedding predictive architecture</p>
+        <p class="title">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</p>
         <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Houhao Liang, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
         <p class="venue">In Progress</p>
         <div class="links">

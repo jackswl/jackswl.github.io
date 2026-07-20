@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Generalizable foundation models for 3D BIM geometry with a joint embedding predictive architecture"
+title: "Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture"
 badge: "Under Review"
 teaser: /assets/projects/bim-jepa-fm/teaser.png
 permalink: /bim-jepa-fm/
@@ -62,7 +62,7 @@ links:
     </h2>
     <span style="font-size: 0.95em;">
       <!-- Write your abstract here. -->
-      The adoption of artificial intelligence in the Architecture, Engineering, and Construction domain is hindered by a reliance on task-specific models that fail to generalize across diverse geometric applications. To address this limitation, this paper introduces a point cloud-based foundation model for 3D Building Information Modeling (BIM) geometry, pre-trained via a Latent-Euclidean Joint Embedding Predictive Architecture on individual BIM objects. By enforcing predictive consistency between global object context and local topological details within a regularized latent space, the proposed model extracts robust semantic features while suppressing low-level geometric noise. Extensive evaluations demonstrate the generalizability of the learned representations across multiple downstream tasks, achieving competitive performance in standard and fine-grained object classification, semantic segmentation via transfer learning, in- and out-of-distribution part segmentation on BIM and computer-aided design objects respectively, and zero-shot tasks including shape retrieval and anomaly detection. These results establish a foundation model that facilitates diverse applications for 3D BIM geometry.
+      The adoption of artificial intelligence in the Architecture, Engineering, and Construction (AEC) domain is hindered by a reliance on task-specific models that fail to generalize across diverse geometric applications. To address this limitation, this paper introduces a point cloud-based foundation model for 3D Building Information Modeling (BIM) geometry, pre-trained via a Latent-Euclidean Joint Embedding Predictive Architecture on individual BIM objects. By enforcing alignment across multi-view BIM object representations within a regularized latent space, the proposed model extracts robust geometric features while suppressing low-level geometric noise. Extensive evaluations demonstrate the generalizability of the learned representations across multiple downstream tasks, achieving competitive performance in standard and fine-grained object classification, semantic segmentation via transfer learning, in- and out-of-distribution part segmentation of BIM and computer-aided design objects respectively, and zero-shot tasks including shape retrieval and anomaly detection. These results advance toward a foundation model that facilitates diverse applications for 3D BIM geometry.
     </span>
   </div>
 </div>
