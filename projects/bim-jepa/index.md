@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Self-supervised learning for BIM element classification using a joint embedding predictive architecture"
-badge: "Automation in Construction (Under Review)"
+badge: Automation in Construction 2026
 teaser: /assets/projects/bim-jepa/teaser.png
 permalink: /bim-jepa/
 

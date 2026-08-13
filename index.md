@@ -44,7 +44,7 @@ layout: default
     <div class="publication-info">
         <p class="title">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</p>
         <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
-        <p class="venue">Submitted to Automation in Construction, In Progress</p>
+        <p class="venue">Automation in Construction, 2026</p>
         <div class="links">
             <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
             <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
