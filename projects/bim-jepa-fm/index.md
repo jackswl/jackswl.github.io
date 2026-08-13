@@ -33,7 +33,7 @@ affiliations:
 
 links:
   - text: Paper
-    # url:
+    url: https://doi.org/10.1016/j.autcon.2026.107169
     icon: fa-regular fa-file
   - text: "Model Weight"
     url: "#"
