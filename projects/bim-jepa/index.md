@@ -29,27 +29,27 @@ affiliations:
 
 links:
   - text: Paper
-    # url: https://doi.org/10.1016/j.aei.2025.103676
+    url: https://doi.org/10.1016/j.autcon.2026.107075
     icon: fa-regular fa-file
   - text: "Model Weight"
-    url: "#"
+    url: https://github.com/jackswl/bim-jepa#pretrained-models
     icon: fa-solid fa-database   # or: fas fa-database (if using FA v5)
   - text: Training Code
     url: https://github.com/jackswl/bim-jepa
     icon: fab fa-github
   - text: Inference Demo
-    url: https://github.com/jackswl/bim-jepa
+    url: https://github.com/jackswl/bim-jepa/blob/main/BIM_JEPA_demo_2.ipynb
     icon: fab fa-github
   # - text: BibTeX
   #   url: /assets/bibtex/fine-tuning.bib
   #   icon: fa-regular fa-file
 ---
 
-<!-- lightweight “more info soon” notice -->
+<!-- lightweight release notice -->
 <div class="row justify-content-center">
   <div class="col-md-10 col-lg-8">
     <div class="alert alert-info text-center" role="alert">
-      More details, including all training code and model weights, will be released upon acceptance of the paper. Thank you for your interest!
+      The paper is published in Automation in Construction. Training code, model weights, and an inference demo are available via the links above. Thank you for your interest!
     </div>
   </div>
 </div>
