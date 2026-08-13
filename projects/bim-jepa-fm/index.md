@@ -36,21 +36,21 @@ links:
     url: https://doi.org/10.1016/j.autcon.2026.107169
     icon: fa-regular fa-file
   - text: "Model Weight"
-    url: "#"
+    url: "https://huggingface.co/collections/llama2thedog/bim-jepa-fm"
     icon: fa-solid fa-database
   - text: Training Code
     url: "https://github.com/jackswl/bim-jepa-fm"
     icon: fab fa-github
   - text: Inference Demo
-    url: "#"
+    url: "https://github.com/jackswl/bim-jepa-fm/blob/main/BIM_JEPA_demo_2.ipynb"
     icon: fab fa-github
 ---
 
-<!-- lightweight "more info soon" notice -->
+<!-- lightweight release notice -->
 <div class="row justify-content-center">
   <div class="col-md-10 col-lg-8">
     <div class="alert alert-info text-center" role="alert">
-      More details, including all training code and model weights, will be released upon acceptance of the paper. Thank you for your interest!
+      The paper is published in Automation in Construction. Training code, model weights, and an inference demo are available via the links above. Thank you for your interest!
     </div>
   </div>
 </div>
