@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture"
-badge: "Under Review"
+badge: Automation in Construction 2026
 teaser: /assets/projects/bim-jepa-fm/teaser.png
 permalink: /bim-jepa-fm/
 
