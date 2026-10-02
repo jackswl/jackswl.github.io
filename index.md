@@ -29,13 +29,13 @@ layout: default
             <video src="/assets/images/thumb_honeycomb.mp4" poster="/assets/images/thumb_honeycomb.png" autoplay muted loop playsinline></video>
         </td>
         <td class="research-text">
-            <a href="{{ '/honeycomb/' | relative_url }}"><span class="papertitle">Honeycomb: Constant-size scene memory representation for video world models</span></a>
+            <a href="{{ '/honeycomb/' | relative_url }}" target="_blank" rel="noopener noreferrer"><span class="papertitle">Honeycomb: Constant-size scene memory representation for video world models</span></a>
             <br>
             <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Kaichen Zhou</span>, <span class="author">Haoyu Chen</span>, <span class="author">Yufeng Weng</span>, <span class="author">Keane Ong</span>, <span class="author">Ruojin Cai</span>, <span class="author">Hang Hua</span>, <span class="author">Justin K.W. Yeoh</span>, <span class="author">Mengyu Wang</span>
             <br>
             <em>arXiv</em>, 2026
             <br>
-            <a href="{{ '/honeycomb/' | relative_url }}">project page</a> /
+            <a href="{{ '/honeycomb/' | relative_url }}" target="_blank" rel="noopener noreferrer">project page</a> /
             <a href="https://arxiv.org/abs/2609.37690" target="_blank" rel="noopener noreferrer">paper</a> /
             <a href="https://github.com/kaichen-z/honeycomb" target="_blank" rel="noopener noreferrer">code</a>
             <p>Honeycomb is a video world model whose HexMemory stores the scene in six fixed-size feature planes, keeping long-horizon generation consistent when revisiting regions while memory stays constant in size.</p>
@@ -75,14 +75,15 @@ layout: default
             <video src="/assets/images/thumb_bimjepafm.mp4" poster="/assets/images/thumb_bimjepafm.png" autoplay muted loop playsinline></video>
         </td>
         <td class="research-text">
-            <a href="{{ '/bim-jepa-fm/' | relative_url }}"><span class="papertitle">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</span></a>
+            <a href="{{ '/bim-jepa-fm/' | relative_url }}" target="_blank" rel="noopener noreferrer"><span class="papertitle">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</span></a>
             <br>
             <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Houhao Liang</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Automation in Construction</em>, 2026
             <br>
-            <a href="{{ '/bim-jepa-fm/' | relative_url }}">project page</a> /
-            <a href="https://doi.org/10.1016/j.autcon.2026.107169" target="_blank" rel="noopener noreferrer">paper</a>
+            <a href="{{ '/bim-jepa-fm/' | relative_url }}" target="_blank" rel="noopener noreferrer">project page</a> /
+            <a href="https://doi.org/10.1016/j.autcon.2026.107169" target="_blank" rel="noopener noreferrer">paper</a> /
+            <a href="https://github.com/jackswl/bim-jepa-fm" target="_blank" rel="noopener noreferrer">code</a>
             <p>A point cloud foundation model for 3D BIM geometry that generalizes across object classification, segmentation, and zero-shot tasks such as shape retrieval and anomaly detection.</p>
         </td>
     </tr>
@@ -106,14 +107,15 @@ layout: default
             <video src="/assets/images/thumb_bimjepa.mp4" poster="/assets/images/thumb_bimjepa.png" autoplay muted loop playsinline></video>
         </td>
         <td class="research-text">
-            <a href="{{ '/bim-jepa/' | relative_url }}"><span class="papertitle">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</span></a>
+            <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer"><span class="papertitle">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</span></a>
             <br>
             <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Automation in Construction</em>, 2026
             <br>
-            <a href="{{ '/bim-jepa/' | relative_url }}">project page</a> /
-            <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">paper</a>
+            <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer">project page</a> /
+            <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">paper</a> /
+            <a href="https://github.com/jackswl/bim-jepa" target="_blank" rel="noopener noreferrer">code</a>
             <p>By predicting the latent representations of masked regions of unlabeled BIM element point clouds, the pre-trained model outperforms supervised methods on element classification, especially when labeled data is scarce.</p>
         </td>
     </tr>
@@ -149,13 +151,13 @@ layout: default
     <tr>
         <td class="research-thumb"><img src="/assets/images/thumb_buildthemis.png" alt="BuildThemis framework"></td>
         <td class="research-text">
-            <a href="{{ '/buildthemis/' | relative_url }}"><span class="papertitle">Fine-tuning a large language model for automated code compliance of building regulations</span></a>
+            <a href="{{ '/buildthemis/' | relative_url }}" target="_blank" rel="noopener noreferrer"><span class="papertitle">Fine-tuning a large language model for automated code compliance of building regulations</span></a>
             <br>
             <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Advanced Engineering Informatics</em>, 2025
             <br>
-            <a href="{{ '/buildthemis/' | relative_url }}">project page</a> /
+            <a href="{{ '/buildthemis/' | relative_url }}" target="_blank" rel="noopener noreferrer">project page</a> /
             <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">paper</a>
             <p>BuildThemis combines a fine-tuned LLM with retrieval-augmented generation to turn building regulations into draft compliance-checking scripts that experts can readily refine.</p>
         </td>
