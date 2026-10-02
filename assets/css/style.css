@@ -31,71 +31,80 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* UPDATED PUBLICATION STYLES */
+/* Research section (typography follows jonbarron.info) */
 
-.publication {
-    margin-bottom: 50px; /* Increased space between publication entries */
+.research-section,
+.research-section td,
+.research-section p,
+.research-section a,
+.research-section strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
 }
 
-.publication-image {
-    /* Image container now takes the full width */
-    width: 100%;
-    margin-bottom: 15px; /* Space between the image and the text below */
+.research-section h2 {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #000000;
+    border-bottom: none;
+    padding: 16px 0;
+    margin: 40px 0 0 0;
 }
 
-.publication-image img {
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    border-radius: 4px;
-    border: 1px solid #eee; /* A light border to frame the image */
-}
-
-.publication-info {
-    /* No special styling needed, it will naturally sit below the image */
-    width: 100%;
-}
-
-.publication-info .title {
-    font-weight: bold;
-    font-size: 1.1em;
-    margin: 0 0 5px 0;
-}
-
-.publication-info .authors {
-    margin: 0 0 5px 0;
-    color: #555;
-    font-size: 0.95em;
-}
-
-.publication-info .venue {
-    margin: 0 0 10px 0;
-    font-style: italic;
-    color: #777;
-    font-size: 0.95em;
-}
-
-.publication-info .links a {
+.research-section a {
+    color: #1772d0;
     text-decoration: none;
-    color: #007bff;
-    margin-right: 15px;
-    font-size: 0.9em;
-    font-weight: 500;
 }
 
-.publication-info .links a:hover {
-    text-decoration: underline;
+.research-section a:focus,
+.research-section a:hover {
+    color: #f09228;
+    text-decoration: none;
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-    .publication {
-        flex-direction: column;
-    }
-    .publication-image {
-        margin-right: 0;
-        margin-bottom: 15px;
-        width: 100%;
-    }
+.research {
+    width: 100%;
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.research-thumb {
+    width: 160px;
+    padding: 16px 16px 16px 0;
+    vertical-align: middle;
+}
+
+.research-thumb img,
+.research-thumb video {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+}
+
+.research-text {
+    padding: 8px 0 8px 8px;
+    vertical-align: middle;
+}
+
+.research-section .author {
+    white-space: nowrap;
+}
+
+.research-section .papertitle {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a31f34; /* MIT Red */
+}
+
+.research-section a:hover .papertitle {
+    color: #f09228;
 }
 
 /* Profile Header Styles */

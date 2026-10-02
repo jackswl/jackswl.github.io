@@ -19,83 +19,146 @@ layout: default
     </div>
 </div>
 
-## Publications
+<div class="research-section">
+<h2>Research</h2>
 
-<div class="publication">
-    <div class="publication-image">
-        <!-- <img src="/assets/images/pub_image4.png" alt="BIM-JEPA-FM framework"> -->
-    </div>
-    <div class="publication-info">
-        <p class="title">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</p>
-        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Houhao Liang, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
-        <p class="venue">Automation in Construction, 2026</p>
-        <div class="links">
-            <a href="https://doi.org/10.1016/j.autcon.2026.107169" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
-            <a href="{{ '/bim-jepa-fm/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
-            <!-- <a href="#">[Code]</a> -->
-        </div>
-    </div>
-</div>
+<table class="research">
+    <tr>
+        <td class="research-thumb">
+            <video src="/assets/images/thumb_honeycomb.mp4" poster="/assets/images/thumb_honeycomb.png" autoplay muted loop playsinline></video>
+        </td>
+        <td class="research-text">
+            <a href="{{ '/honeycomb/' | relative_url }}"><span class="papertitle">Honeycomb: Constant-Size Scene Memory Representation for Video World Models</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Kaichen Zhou</span>, <span class="author">Haoyu Chen</span>, <span class="author">Yufeng Weng</span>, <span class="author">Keane Ong</span>, <span class="author">Ruojin Cai</span>, <span class="author">Hang Hua</span>, <span class="author">Justin Ker-Wei Yeoh</span>, <span class="author">Mengyu Wang</span>
+            <br>
+            <em>arXiv</em>, 2026
+            <br>
+            <a href="{{ '/honeycomb/' | relative_url }}">project page</a> /
+            <a href="https://arxiv.org/abs/2609.37690" target="_blank" rel="noopener noreferrer">paper</a> /
+            <a href="https://github.com/kaichen-z/honeycomb" target="_blank" rel="noopener noreferrer">code</a>
+            <p>Honeycomb is a video world model whose HexMemory stores the scene in six fixed-size feature planes, keeping long-horizon generation consistent when revisiting regions while memory stays constant in size.</p>
+        </td>
+    </tr>
 
-<div class="publication">
-    <div class="publication-image">
-        <!-- <img src="/assets/images/pub_image3.png" alt="BIM-JEPA framework"> -->
-    </div>
-    <div class="publication-info">
-        <p class="title">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</p>
-        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Yufeng Weng, Yimin Zhao, Leong Hien Poh, Justin Ker-Wei Yeoh</p>
-        <p class="venue">Automation in Construction, 2026</p>
-        <div class="links">
-            <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
-            <a href="{{ '/bim-jepa/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
-            <!-- <a href="#">[Code]</a> -->
-        </div>
-    </div>
-</div>
+    <tr>
+        <td class="research-thumb">
+            <video src="/assets/images/thumb_bimjepafm.mp4" poster="/assets/images/thumb_bimjepafm.png" autoplay muted loop playsinline></video>
+        </td>
+        <td class="research-text">
+            <a href="{{ '/bim-jepa-fm/' | relative_url }}"><span class="papertitle">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Houhao Liang</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <br>
+            <em>Automation in Construction</em>, 2026
+            <br>
+            <a href="{{ '/bim-jepa-fm/' | relative_url }}">project page</a> /
+            <a href="https://doi.org/10.1016/j.autcon.2026.107169" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>A point cloud foundation model for 3D BIM geometry that generalizes across object classification, segmentation, and zero-shot tasks such as shape retrieval and anomaly detection.</p>
+        </td>
+    </tr>
 
-<div class="publication">
-    <div class="publication-image">
-        <img src="/assets/images/pub_image3.png" alt="BuildThemis framework">
-    </div>
-    <div class="publication-info">
-        <p class="title">Fine-tuning a large language model for automated code compliance of building regulations</p>
-        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Wawan Solihin, Justin Ker-Wei Yeoh</p>
-        <p class="venue">Advanced Engineering Informatics, 2025</p>
-        <div class="links">
-            <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
-            <a href="{{ '/buildthemis/' | relative_url }}" target="_blank" rel="noopener noreferrer">[Project Page]</a>
-            <!-- <a href="#">[Code]</a> -->
-        </div>
-    </div>
-</div>
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_bivqa.png" alt="BIVQA damage localization"></td>
+        <td class="research-text">
+            <a href="https://doi.org/10.1016/j.autcon.2026.107125" target="_blank" rel="noopener noreferrer"><span class="papertitle">Visual question answering for bridge damage inspection using a multi-modal large language model</span></a>
+            <br>
+            <span class="author">Minghao Dang</span>, <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Yapeng Guo</span>, <span class="author">Hongtao Cui</span>, <span class="author">Justin Ker-Wei Yeoh</span>, <span class="author">Shunlong Li</span>
+            <br>
+            <em>Automation in Construction</em>, 2026
+            <br>
+            <a href="https://doi.org/10.1016/j.autcon.2026.107125" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>BIVQA, built on a multi-modal large language model, answers natural-language questions about bridge inspection images while simultaneously localizing the damage.</p>
+        </td>
+    </tr>
 
-<div class="publication">
-    <div class="publication-image">
-        <img src="/assets/images/pub_image2.png" alt="Humanity's last exam">
-    </div>
-    <div class="publication-info">
-        <p class="title">Humanity's last exam</p>
-        <p class="authors">Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, ..., <strong>Jack Wei Lun Shi</strong>, ..., Alexandr Wang, Dan Hendrycks.</p>
-        <p class="venue">arXiv.org, 2025</p>
-        <div class="links">
-            <a href="https://doi.org/10.48550/arXiv.2501.14249" target="_blank" rel="noopener noreferrer">[arXiv Link]</a>
-            <a href="https://agi.safe.ai/" target="_blank" rel="noopener noreferrer">[Project Page]</a>
-        </div>
-    </div>
-</div>
+    <tr>
+        <td class="research-thumb">
+            <video src="/assets/images/thumb_bimjepa.mp4" poster="/assets/images/thumb_bimjepa.png" autoplay muted loop playsinline></video>
+        </td>
+        <td class="research-text">
+            <a href="{{ '/bim-jepa/' | relative_url }}"><span class="papertitle">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <br>
+            <em>Automation in Construction</em>, 2026
+            <br>
+            <a href="{{ '/bim-jepa/' | relative_url }}">project page</a> /
+            <a href="https://doi.org/10.1016/j.autcon.2026.107075" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>By predicting the latent representations of masked regions of unlabeled BIM element point clouds, the pre-trained model outperforms supervised methods on element classification, especially when labeled data is scarce.</p>
+        </td>
+    </tr>
 
-## Research
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_p4ir.png" alt="P4IR tree edit distance heatmap"></td>
+        <td class="research-text">
+            <a href="https://arxiv.org/abs/2606.22402" target="_blank" rel="noopener noreferrer"><span class="papertitle">Reinforcement learning to improve large language model-based automated code compliance systems</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <br>
+            <em>arXiv</em>, 2026
+            <br>
+            <a href="https://arxiv.org/abs/2606.22402" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>P4IR combines supervised fine-tuning with GRPO reinforcement learning to generate more accurate code skeletons from building regulations, outperforming leading frontier LLMs in a zero-shot setting.</p>
+        </td>
+    </tr>
 
-<div class="publication">
-    <div class="publication-image">
-        <img src="/assets/images/pub_image1.png" alt="CBROM">
-    </div>
-    <div class="publication-info">
-        <p class="title">[Poster] Component-based reduced order modeling for heat transfer in thermal fin and data server</p>
-        <p class="authors"><strong>Jack Wei Lun Shi</strong>, Xiang Zhao, My Ha Dao</p>
-        <p class="venue">International Workshop on Reduced Order Methods, 2023</p>
-        <div class="links">
-            <a href="/assets/pdf/Poster_NUSIMS.pdf" target="_blank" rel="noopener noreferrer">[Poster Link]</a>
-        </div>
-    </div>
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_attribution.png" alt="Attribution maps for FFT, LoRA and QLoRA"></td>
+        <td class="research-text">
+            <a href="https://arxiv.org/abs/2604.15589" target="_blank" rel="noopener noreferrer"><span class="papertitle">LLM attribution analysis across different fine-tuning strategies and model scales for automated code compliance</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <br>
+            <em>International Conference on Computing in Civil and Building Engineering (ICCCBE)</em>, 2026
+            <br>
+            <a href="https://arxiv.org/abs/2604.15589" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>Perturbation-based attribution shows that full fine-tuning yields more focused attribution patterns over building regulation text than LoRA and QLoRA, and that larger LLMs learn to prioritize numerical constraints and rule identifiers.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_buildthemis.png" alt="BuildThemis framework"></td>
+        <td class="research-text">
+            <a href="{{ '/buildthemis/' | relative_url }}"><span class="papertitle">Fine-tuning a large language model for automated code compliance of building regulations</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <br>
+            <em>Advanced Engineering Informatics</em>, 2025
+            <br>
+            <a href="{{ '/buildthemis/' | relative_url }}">project page</a> /
+            <a href="https://doi.org/10.1016/j.aei.2025.103676" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>BuildThemis combines a fine-tuned LLM with retrieval-augmented generation to turn building regulations into draft compliance-checking scripts that experts can readily refine.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_hle.png" alt="Humanity's last exam"></td>
+        <td class="research-text">
+            <a href="https://agi.safe.ai/" target="_blank" rel="noopener noreferrer"><span class="papertitle">Humanity's last exam</span></a>
+            <br>
+            <span class="author">Long Phan</span>, <span class="author">Alice Gatti</span>, <span class="author">Ziwen Han</span>, <span class="author">Nathaniel Li</span>, ..., <span class="author"><strong>Jack Wei Lun Shi</strong></span>, ..., <span class="author">Alexandr Wang</span>, <span class="author">Dan Hendrycks</span>
+            <br>
+            <em>Nature</em>, 2026
+            <br>
+            <a href="https://agi.safe.ai/" target="_blank" rel="noopener noreferrer">project page</a> /
+            <a href="https://doi.org/10.1038/s41586-025-09962-4" target="_blank" rel="noopener noreferrer">paper</a>
+            <p>A benchmark of 2,500 expert-written questions at the frontier of human knowledge, on which state-of-the-art LLMs still score poorly.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_cbrom.png" alt="CBROM poster"></td>
+        <td class="research-text">
+            <a href="/assets/pdf/Poster_NUSIMS.pdf" target="_blank" rel="noopener noreferrer"><span class="papertitle">Component-based reduced order modeling for heat transfer in thermal fin and data server</span></a>
+            <br>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Xiang Zhao</span>, <span class="author">My Ha Dao</span>
+            <br>
+            <em>International Workshop on Reduced Order Methods</em>, 2023 (poster)
+            <br>
+            <a href="/assets/pdf/Poster_NUSIMS.pdf" target="_blank" rel="noopener noreferrer">poster</a>
+            <p>Decomposing a thermal fin and a data server into reusable components yields reduced order models that match high-fidelity FEA results while running 26 and 6.5 times faster.</p>
+        </td>
+    </tr>
+</table>
 </div>
