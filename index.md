@@ -5,7 +5,8 @@ layout: default
 <div class="profile-header">
     <div class="profile-info">
         <h1>{{ site.author }}</h1>
-        <p>I am a third year Ph.D. student in the Department of Civil and Environmental Engineering at the National University of Singapore, advised by <a href="https://scholar.google.com/citations?user=m9LF49sAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. Justin Ker-Wei Yeoh</a>. My primary research focuses on spatial intelligence for BIM, exploring how geometric world models and joint-embedding approaches can train machines to reason about buildings in 3D space. Earlier on, I worked on leveraging and improving large language models and information retrieval techniques to automate code compliance for building regulations, with the goal of enhancing the design process in the architecture, engineering, and construction industry. I am always on the lookout for challenging opportunities that push the boundaries of knowledge and possibility. </p>
+        <p>I am a third year Ph.D. student in the Department of Civil and Environmental Engineering at the National University of Singapore, advised by <a href="https://scholar.google.com/citations?user=m9LF49sAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Justin K.W. Yeoh</a> and <a href="https://cde.nus.edu.sg/cee/staff/wawan-solihin/" target="_blank" rel="noopener noreferrer">Wawan Solihin</a>. My primary research focuses on spatial intelligence for BIM, exploring how geometric world models and joint-embedding approaches can train machines to reason about buildings in 3D space. Earlier on, I worked on leveraging and improving large language models and information retrieval techniques to automate code compliance for building regulations, with the goal of enhancing the design process in the architecture, engineering, and construction industry. I am also working with <a href="https://kaichen-z.github.io/" target="_blank" rel="noopener noreferrer">Kaichen Zhou</a> on research relating to computer vision and world models. </p>
+        <p>If you're interested in my research or would like to collaborate, please don't hesitate to reach out via <a href="mailto:jackswl@u.nus.edu">email</a>!</p>
         <div class="profile-links">
             <a href="mailto:jackswl@u.nus.edu">Email</a> / 
             <a href="/assets/pdf/Jack_Resume_latest.pdf" target="_blank" rel="noopener noreferrer">CV</a> /
@@ -28,9 +29,9 @@ layout: default
             <video src="/assets/images/thumb_honeycomb.mp4" poster="/assets/images/thumb_honeycomb.png" autoplay muted loop playsinline></video>
         </td>
         <td class="research-text">
-            <a href="{{ '/honeycomb/' | relative_url }}"><span class="papertitle">Honeycomb: Constant-Size Scene Memory Representation for Video World Models</span></a>
+            <a href="{{ '/honeycomb/' | relative_url }}"><span class="papertitle">Honeycomb: Constant-size scene memory representation for video world models</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Kaichen Zhou</span>, <span class="author">Haoyu Chen</span>, <span class="author">Yufeng Weng</span>, <span class="author">Keane Ong</span>, <span class="author">Ruojin Cai</span>, <span class="author">Hang Hua</span>, <span class="author">Justin Ker-Wei Yeoh</span>, <span class="author">Mengyu Wang</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Kaichen Zhou</span>, <span class="author">Haoyu Chen</span>, <span class="author">Yufeng Weng</span>, <span class="author">Keane Ong</span>, <span class="author">Ruojin Cai</span>, <span class="author">Hang Hua</span>, <span class="author">Justin K.W. Yeoh</span>, <span class="author">Mengyu Wang</span>
             <br>
             <em>arXiv</em>, 2026
             <br>
@@ -42,13 +43,41 @@ layout: default
     </tr>
 
     <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_ifccontextnet.png" alt="IFCContextNet target element in context"></td>
+        <td class="research-text">
+            <span class="papertitle">Context-aware IFC element classification using geometric, semantic, and spatial graphs</span>
+            <br>
+            <span class="author">Mingsong Yang</span>, <span class="author">Yuan Cao</span>, <span class="author">Xinhong Hei</span>, <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Haoding Xu</span>, <span class="author">Xiaogang Song</span>, <span class="author">Qin Zhao</span>
+            <br>
+            <em>Automation in Construction</em>, 2027
+            <br>
+            Under review
+            <p>IFCContextNet classifies IFC elements by combining three separately encoded graphs: the element's geometry, its IFC semantic relations, and its surrounding spatial context.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="research-thumb"><img src="/assets/images/thumb_delamination.png" alt="Thermal delamination masks and cross-modal heat maps"></td>
+        <td class="research-text">
+            <span class="papertitle">Automated concrete delamination detection via physics-guided SAM and unaligned cross-modal verification</span>
+            <br>
+            <span class="author">Yufeng Weng</span>, <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Yimin Zhao</span>, <span class="author">Yuhan Zhou</span>, <span class="author">Ser-Tong Quek</span>, <span class="author">Justin K.W. Yeoh</span>
+            <br>
+            <em>Automation in Construction</em>, 2027
+            <br>
+            Under review
+            <p>A zero-shot framework that segments concrete delamination in drone thermal images with physics-guided SAM and filters false positives against unaligned visible imagery.</p>
+        </td>
+    </tr>
+
+    <tr>
         <td class="research-thumb">
             <video src="/assets/images/thumb_bimjepafm.mp4" poster="/assets/images/thumb_bimjepafm.png" autoplay muted loop playsinline></video>
         </td>
         <td class="research-text">
             <a href="{{ '/bim-jepa-fm/' | relative_url }}"><span class="papertitle">Toward generalizable foundation models for 3D BIM geometry using a joint embedding predictive architecture</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Houhao Liang</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Houhao Liang</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Automation in Construction</em>, 2026
             <br>
@@ -63,7 +92,7 @@ layout: default
         <td class="research-text">
             <a href="https://doi.org/10.1016/j.autcon.2026.107125" target="_blank" rel="noopener noreferrer"><span class="papertitle">Visual question answering for bridge damage inspection using a multi-modal large language model</span></a>
             <br>
-            <span class="author">Minghao Dang</span>, <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Yapeng Guo</span>, <span class="author">Hongtao Cui</span>, <span class="author">Justin Ker-Wei Yeoh</span>, <span class="author">Shunlong Li</span>
+            <span class="author">Minghao Dang</span>, <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Yapeng Guo</span>, <span class="author">Hongtao Cui</span>, <span class="author">Justin K.W. Yeoh</span>, <span class="author">Shunlong Li</span>
             <br>
             <em>Automation in Construction</em>, 2026
             <br>
@@ -79,7 +108,7 @@ layout: default
         <td class="research-text">
             <a href="{{ '/bim-jepa/' | relative_url }}"><span class="papertitle">Self-supervised learning for BIM element classification using a joint embedding predictive architecture</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Yufeng Weng</span>, <span class="author">Yimin Zhao</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Automation in Construction</em>, 2026
             <br>
@@ -94,7 +123,7 @@ layout: default
         <td class="research-text">
             <a href="https://arxiv.org/abs/2606.22402" target="_blank" rel="noopener noreferrer"><span class="papertitle">Reinforcement learning to improve large language model-based automated code compliance systems</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Leong Hien Poh</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>arXiv</em>, 2026
             <br>
@@ -108,7 +137,7 @@ layout: default
         <td class="research-text">
             <a href="https://arxiv.org/abs/2604.15589" target="_blank" rel="noopener noreferrer"><span class="papertitle">LLM attribution analysis across different fine-tuning strategies and model scales for automated code compliance</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Minghao Dang</span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>International Conference on Computing in Civil and Building Engineering (ICCCBE)</em>, 2026
             <br>
@@ -122,7 +151,7 @@ layout: default
         <td class="research-text">
             <a href="{{ '/buildthemis/' | relative_url }}"><span class="papertitle">Fine-tuning a large language model for automated code compliance of building regulations</span></a>
             <br>
-            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin Ker-Wei Yeoh</span>
+            <span class="author"><strong>Jack Wei Lun Shi</strong></span>, <span class="author">Wawan Solihin</span>, <span class="author">Justin K.W. Yeoh</span>
             <br>
             <em>Advanced Engineering Informatics</em>, 2025
             <br>
