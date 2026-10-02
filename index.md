@@ -6,7 +6,7 @@ layout: default
     <div class="profile-info">
         <h1>{{ site.author }}</h1>
         <p>I am a third year Ph.D. student in the Department of Civil and Environmental Engineering at the National University of Singapore, advised by <a href="https://scholar.google.com/citations?user=m9LF49sAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Justin K.W. Yeoh</a> and <a href="https://cde.nus.edu.sg/cee/staff/wawan-solihin/" target="_blank" rel="noopener noreferrer">Wawan Solihin</a>. My primary research focuses on spatial intelligence for BIM, exploring how geometric world models and joint-embedding approaches can train machines to reason about buildings in 3D space. Earlier on, I worked on leveraging and improving large language models and information retrieval techniques to automate code compliance for building regulations, with the goal of enhancing the design process in the architecture, engineering, and construction industry. I am also working with <a href="https://kaichen-z.github.io/" target="_blank" rel="noopener noreferrer">Kaichen Zhou</a> on research relating to computer vision and world models. </p>
-        <p>If you're interested in my research or would like to collaborate, please don't hesitate to reach out via <a href="mailto:jackswl@u.nus.edu">email</a>!</p>
+        <p>If you're interested in my research or would like to collaborate, please don't hesitate to reach out via <a href="mailto:jackswl@u.nus.edu">email</a>.</p>
         <div class="profile-links">
             <a href="mailto:jackswl@u.nus.edu">Email</a> / 
             <a href="/assets/pdf/Jack_Resume_latest.pdf" target="_blank" rel="noopener noreferrer">CV</a> /
